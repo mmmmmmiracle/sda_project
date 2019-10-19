@@ -1,0 +1,8 @@
+tensorflow
+keras
+recurrentshop
+
+/*******install recurrentshop*********/
+git clone https://www.github.com/farizrahman4u/recurrentshop.git
+cd recurrentshop
+python setup.py install
