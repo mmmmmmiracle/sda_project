@@ -114,7 +114,7 @@ def whole_flow(source_df):
 
 
 def plot_learning_curve(estimator, title, X, y, ylim=None, cv=None,
-                        train_sizes=np.linspace(.1, 1.0, 5),scoring='mean_squared_error',n_jobs=16):
+                        train_sizes=np.linspace(.1, 1.0, 5),scoring='neg_mean_squared_error',n_jobs=16):
     """
     画出data在某模型上的learning curve.
     参数解释
